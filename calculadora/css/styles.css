@@ -17,4 +17,13 @@ body{
     font-weight:bolder;
 }
 
+hr{
+    border-style: double;
+    border-top: 100px solid #A0ABED;
+}
+
+p{
+    font-weight: bold;
+    color:#A0ABED;
+}
 
