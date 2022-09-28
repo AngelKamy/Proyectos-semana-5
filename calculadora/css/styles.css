@@ -1,11 +1,7 @@
-/** body{
-    background-size: cover;
+body{
+    background-size:cover;
     background-image:url(../assets/fondo\ chill.png);
 }
-/*#resultado{
-    margin-inline: black ;
-}
-*/
-.btnn{
-    background-color: blueviolet;
-}
+
+
+
