@@ -3,5 +3,18 @@ body{
     background-image:url(../assets/fondo\ chill.png);
 }
 
+.redondeado{
+    border-radius: 10px;
+    background-color: #A0ABED;
+    text-align: center;
+}
+#val1, #val2{
+    color:whitesmoke;
+    font-weight: bold;
+}
+
+#total{
+    font-weight:bolder;
+}
 
 
