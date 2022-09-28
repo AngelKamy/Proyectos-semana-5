@@ -8,10 +8,13 @@
     <title>Calculadora virtual📱</title>
     <!-- Estilo de bootstrap -->
     <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <!-- Mi hoja de estilo -->
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <header>
-        <div class="container"  >
+        <!-- Título -->
+        <div class="container-sm">
             <div class="row justify-content-center my-5">
                 <div class="col mx-9">
                     <h1></h1>
@@ -26,8 +29,9 @@
     </header>
 
     <main>
-        <div class="container">
-            <div class="row">
+        <!-- Panel de input/ouput -->
+        <div class="container-sm">
+            <div class="row justify-content-center my-5">
                 <div class="col">
                     <label for="valor1">Número 1</label>
                     <input type="number" id="valor1" placeholder="0">
@@ -37,11 +41,33 @@
                     <input type="number" id="valor2" placeholder="0">
                 </div>
 
-                <div class="row">
+                <div class="row ">
                     <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
+                    <div class="col-md-6" id="resultado">
+                        <p>Resultado: </p>
+                    </div>
+                    <div class="col margin-color" ></div>
                 </div>
+            </div>
+        </div>
+
+        <!-- Botones  -->
+        <div class="row">
+             <!-- Botón suma -->
+            <div class="col-md-3">
+                <button type="button" class="btn btn-primary">Suma</button>
+            </div>
+            <!-- Botón resta -->
+            <div class="col-md-3">
+                <button type="button" class="btn btn-primary">Resta</button>
+            </div>
+            <!-- Botón Multiplicación -->
+            <div class="col-md-3">
+                <button type="button" class="btn btn-primary">Multiplicación</button>
+            </div>
+            <!-- Botón división -->
+            <div class="col-md-3">
+                <button type="button" class="btn btn-primary">Divisióm</button>
             </div>
         </div>
 
