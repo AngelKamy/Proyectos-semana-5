@@ -1,4 +1,4 @@
-body{
+/** body{
     background-size: cover;
     background-image:url(../assets/fondo\ chill.png);
 }
@@ -6,3 +6,6 @@ body{
     margin-inline: black ;
 }
 */
+.btnn{
+    background-color: blueviolet;
+}
