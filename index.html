@@ -15,7 +15,7 @@
 
 <body>
     <!-- Contenedor principal -->
-    <div class="container text-light">
+    <div class="container-sm text-light">
         <header>
             <div class="row">
                 <div class="col"></div>
@@ -29,13 +29,13 @@
         <main>
             <!-- Panel de Input/Output -->
             <div class="row my-5">
-                <div class="col"></div>
-                <div class="col-md-2">
+                <div class="col-sm-2 mx-3">
                     <label for="valor1">Numero 1</label>
                     <input class="redondeado" type="number" id="val1" placeholder="0">
                 </div>
                 <div class="col"></div>
-                <div class="col-md-2">
+                <div class="col"></div>
+                <div class="col-sm-2 mx-3">
                     <label for="valor2">Numero 2</label>
                     <input class="redondeado" type="number" id="val2" placeholder="0">
                 </div>
@@ -44,36 +44,37 @@
             </div>
 
             <div class="row my-5">
-                <div class="col-md-2"></div>
-                <div class="col-md-2"></div>
-                <div class="col-md-2">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2">
                     <label for="total">Resultado es: </label>
                     <input class="redondeado" readonly="readonly" type="number" id="total">
                 </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-2"></div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2"></div>
             </div>
 
             <!-- Botones de operación -->
             <div class="row">
                 <!-- Botón suma -->
-                <div class="col-md-3"></div>
-                <div class="col-md-1 mx-1">
+                <div class="col-sm-2 mx-3">
                     <button type="button" class="btn btn-warning" id="add">Suma</button>
-                </div>
+                </div> 
+                <div class="col-sm-1"></div>
                 <!-- Botón resta -->
-                <div class="col-md-1 mx-1">
+                <div class="col-sm-2 mx-3">
                     <button type="button" class="btn btn-warning" id="sub">Resta</button>
                 </div>
                 <!-- Botón Multiplicación -->
-                <div class="col-md-2 mx-1">
+                <div class="col-sm-2 mx-3">
                     <button type="button" class="btn btn-warning" id="mul">Multiplicación</button>
                 </div>
+                <div class="col-sm-1"></div>
                 <!-- Botón División -->
-                <div class="col-md-1 mx-1">
+                <div class="col-sm-1 mx-3">
                     <button type="button" class="btn btn-warning" id="div">División</button>
                 </div>
-                <div class="col-md-4"></div>
+                
             </div>
         </main>
         <!-- Barra divisora -->
@@ -83,8 +84,8 @@
 
         <!-- Instrucciones para el usuario -->
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
                 <h3>¡Hola! Esta es una calculadora para practicar lo visto en <em>Generation</em> <br></h3>
                 <p> Para utlizar la calculadora
                     sigue estos sencillos pasos: <br> <br> 1. Introduce dos números al azar <br> 2. Escoge la operación que
@@ -93,7 +94,7 @@
                     <br> 4. Gracias por usar la calculadora de <strong>Angel</strong>
                 </p>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-sm-2"></div>
         </div>
     </div>
     <!-- Funcionamiento Javascript bootstrap -->
